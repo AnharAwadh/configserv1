@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-
+@RefreshScope
 
 public class CustomerProfileController {
     @Value("${test.test}")
