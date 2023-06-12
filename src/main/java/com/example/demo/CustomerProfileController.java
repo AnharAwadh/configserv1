@@ -19,6 +19,6 @@ public class CustomerProfileController {
 
     @GetMapping("/customer/{email}")
     public String getCustomerDetails(@PathVariable String email) {
-       return "hiili"+value;
+       return "hkiilli"+value;
     }
 }
